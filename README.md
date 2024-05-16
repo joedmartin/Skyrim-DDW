@@ -27,4 +27,4 @@ Creating a new dungeon/cave in Skyrim SE every week using the Skyrim SE Creation
 - Optimzation (per room/area render chunking)
 - Project cleanup (SSEdit)
 ### To-Do:
-- [] Quest tracking
+- [ ] Quest tracking
