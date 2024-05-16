@@ -3,7 +3,7 @@
 Creating a new dungeon/cave in Skyrim SE every week using the Skyrim SE Creation Kit!
 
 ## DDW 0 - Demo Dungeon
-Concepts demonstrated
+### Concepts demonstrated:
 - Working with nordic dungeon small rooms, small halls, catacombs small/large halls
 - Working with green cave kit
 - Special Effects
@@ -26,3 +26,5 @@ Concepts demonstrated
 - Navmesh Creation and validation
 - Optimzation (per room/area render chunking)
 - Project cleanup (SSEdit)
+### To-Do:
+- [] Quest tracking
