@@ -9,9 +9,9 @@ Creating a new dungeon/cave in Skyrim SE every week using the Skyrim SE Creation
 - Special Effects
   - Cell ambience/music
   - Lighting
-   - Custom cell lighting profile
-   - Custom Location and Encounter Zone
-   - Use and balance of shadow and non-shadow casting light sources
+    - Custom cell lighting profile
+    - Custom Location and Encounter Zone
+    - Use and balance of shadow and non-shadow casting light sources
 - Enemies
   - Enemy ambushes
   - Lvl and Enc enemies
@@ -24,7 +24,7 @@ Creating a new dungeon/cave in Skyrim SE every week using the Skyrim SE Creation
 - Activators (pull chain and secret passage door)
 - Companion commentary triggers
 - Navmesh Creation and validation
-- Optimzation (per room/area render chunking)
+- Optimization (per room/area render chunking)
 - Project cleanup (SSEdit)
 ### To-Do:
 - [ ] Quest tracking
