@@ -7,20 +7,20 @@ Concepts demonstrated
 - Working with nordic dungeon small rooms, small halls, catacombs small/large halls
 - Working with green cave kit
 - Special Effects
- * Cell ambience/music
- - Lighting
-  - Custom cell lighting profile
-  - Custom Location and Encounter Zone
-  - Use and balance of shadow and non-shadow casting light sources
+  - Cell ambience/music
+  - Lighting
+   - Custom cell lighting profile
+   - Custom Location and Encounter Zone
+   - Use and balance of shadow and non-shadow casting light sources
 - Enemies
- - Enemy ambushes
- - Lvl and Enc enemies
- - Custom boss
+  - Enemy ambushes
+  - Lvl and Enc enemies
+  - Custom boss
 - Traps
 - Clutter
- - Static
- - Moveable Static
- - Dummy/leveled items
+  - Static
+  - Moveable Static
+  - Dummy/leveled items
 - Activators (pull chain and secret passage door)
 - Companion commentary triggers
 - Navmesh Creation and validation
