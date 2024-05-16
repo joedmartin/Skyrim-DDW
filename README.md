@@ -7,7 +7,7 @@ Concepts demonstrated
 - Working with nordic dungeon small rooms, small halls, catacombs small/large halls
 - Working with green cave kit
 - Special Effects
- - Cell ambience/music
+ * Cell ambience/music
  - Lighting
   - Custom cell lighting profile
   - Custom Location and Encounter Zone
