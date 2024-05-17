@@ -28,3 +28,5 @@ Creating a new dungeon/cave in Skyrim SE every week using the Skyrim SE Creation
 - Project cleanup (SSEdit)
 ### To-Do:
 - [ ] Quest tracking
+  - [ ] Track killing 5 spiders
+  - [ ] Track killing the draugr boss
