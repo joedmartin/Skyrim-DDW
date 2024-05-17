@@ -4,29 +4,29 @@ Creating a new dungeon/cave in Skyrim SE every week using the Skyrim SE Creation
 
 ## DDW 0 - Demo Dungeon
 ### Concepts demonstrated:
-- Working with nordic dungeon small rooms, small halls, catacombs small/large halls
-- Working with green cave kit
-- Special Effects
-  - Cell ambience/music
-  - Lighting
-    - Custom cell lighting profile
-    - Custom Location and Encounter Zone
-    - Use and balance of shadow and non-shadow casting light sources
-- Enemies
-  - Enemy ambushes
-  - Lvl and Enc enemies
-  - Custom boss
-- Traps
-- Clutter
-  - Static
-  - Moveable Static
-  - Dummy/leveled items
-- Activators (pull chain and secret passage door)
-- Companion commentary triggers
-- Navmesh Creation and validation
-- Optimization (per room/area render chunking)
-- Project cleanup (SSEdit)
+- [X] Working with nordic dungeon small rooms, small halls, catacombs small/large halls
+- [X] Working with green cave kit
+- [X] Special Effects
+  - [X] Cell ambience/music
+  - [X] Lighting
+    - [X] Custom cell lighting profile
+    - [X] Custom Location and Encounter Zone
+    - [X] Use and balance of shadow and non-shadow casting light sources
+- [X] Enemies
+  - [X] Enemy ambushes
+  - [X] Lvl and Enc enemies
+  - [X] Custom scalable boss
+- [X] Traps
+- [X] Clutter
+  - [X] Static
+  - [X] Moveable Static
+  - [X] Dummy/leveled items
+- [X] Activators (pull chain and secret passage door)
+- [X] Companion commentary triggers
+- [X] Navmesh Creation and validation
+- [X] Optimization (per room/area render chunking)
+- [X] Project cleanup (SSEdit)
 ### To-Do:
-- [ ] Quest tracking
+- Quest tracking
   - [ ] Track killing 5 spiders
   - [ ] Track killing the draugr boss
