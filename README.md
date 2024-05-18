@@ -3,7 +3,7 @@
 Creating a new dungeon/cave in Skyrim SE every week using the Skyrim SE Creation Kit!
 
 ## DDW 0 - Demo Dungeon
-<img src="https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWDemoSpiderDraugr.jpg?raw=true" width="33%"> <img src="https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWDemoBossRoom.jpg?raw=true" width="33%">
+![DDW Demo Dungeon Boss Room](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWDemoBossRoom.jpg?raw=true)
 ### Concepts demonstrated:
 - [X] Working with nordic dungeon small rooms, small halls, catacombs small/large halls
 - [X] Working with green cave kit
@@ -29,3 +29,5 @@ Creating a new dungeon/cave in Skyrim SE every week using the Skyrim SE Creation
 - [X] Quest tracking
   - [X] Track recieving and reading a note, visiting a location, killing 5 spiders, killing a draugr boss, finding the secret exit and treasure
 - [X] Project cleanup (SSEdit)
+### Video Walkthrough:
+[![Walkthrough Video of DDW Demo Dungeon](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWDemoVideoThumbnail.jpg?raw=true)](https://www.youtube.com/watch?v=vm21_zYQw4Y)
