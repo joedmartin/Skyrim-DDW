@@ -4,7 +4,7 @@ Creating a new dungeon/cave in Skyrim SE every week using the Skyrim SE Creation
 
 ## DDW 0 - Demo Dungeon
 ### Video Walkthrough:
-[![Walkthrough Video of DDW Demo Dungeon](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWDemoVideoThumbnail.jpg?raw=true)](https://www.youtube.com/watch?v=vm21_zYQw4Y)
+[![Walkthrough Video of DDW Demo Dungeon](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWDemoVideoThumbnail.jpg?raw=true)](https://www.youtube.com/watch?v=q72g-4YIJlw)
 ### Concepts demonstrated:
 - [X] Working with nordic dungeon small rooms, small halls, catacombs small/large halls
 - [X] Working with green cave kit
