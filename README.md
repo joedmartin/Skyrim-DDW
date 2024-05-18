@@ -26,8 +26,6 @@ Creating a new dungeon/cave in Skyrim SE every week using the Skyrim SE Creation
 - [X] Companion commentary triggers
 - [X] Navmesh Creation and validation
 - [X] Optimization (per room/area render chunking)
+- [X] Quest tracking
+  - [X] Track recieving and reading a note, visiting a location, killing 5 spiders, killing a draugr boss, finding the secret exit and treasure
 - [X] Project cleanup (SSEdit)
-### To-Do:
-- Quest tracking
-  - [ ] Track killing 5 spiders
-  - [ ] Track killing the draugr boss
