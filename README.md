@@ -9,7 +9,7 @@ Two Dungeons Created So Far:
 ### Video Walkthroughs
 [![Walkthrough Video of DDW Demo Dungeon](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWDemoVideoThumbnail.jpg?raw=true)](https://youtu.be/D-gVM9IxT5I)
 
-[![Walkthrough Video of DDW Dungeon #1 - The Heart of Winter](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWDemoVideoThumbnail.jpg?raw=true)](https://youtu.be/CPXUett1wCo)
+[![Walkthrough Video of DDW Dungeon #1 - The Heart of Winter](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWVideo1Thumbnail.jpg?raw=true)](https://youtu.be/CPXUett1wCo)
 
 [Nexus Page](https://www.nexusmods.com/skyrimspecialedition/mods/119713/)
 
