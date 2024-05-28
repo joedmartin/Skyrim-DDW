@@ -1,11 +1,6 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
-;NEXT FRAGMENT INDEX 23
+;NEXT FRAGMENT INDEX 25
 Scriptname QF_DDWDepths1Quest_0103DA46 Extends Quest Hidden
-
-;BEGIN ALIAS PROPERTY DDWDepthsOneDestChest
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_DDWDepthsOneDestChest Auto
-;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY DDWDepths1Door
 ;ALIAS PROPERTY TYPE ReferenceAlias
@@ -27,11 +22,27 @@ ReferenceAlias Property Alias_HeartOfWinter Auto
 ReferenceAlias Property Alias_DaedraBoss Auto
 ;END ALIAS PROPERTY
 
-;BEGIN FRAGMENT Fragment_22
-Function Fragment_22()
+;BEGIN ALIAS PROPERTY DDWDepthsOneDestChest
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_DDWDepthsOneDestChest Auto
+;END ALIAS PROPERTY
+
+;BEGIN FRAGMENT Fragment_15
+Function Fragment_15()
 ;BEGIN CODE
-alias_DDWDepthsOneNote.ForceRefTo(Game.GetPlayer().PlaceAtMe(DDWDepthsOneNote))
-(WICourier as WICourierScript).addAliasToContainer(alias_DDWDepthsOneNote)
+Utility.Wait(1.0)
+SetObjectiveCompleted(20)
+SetObjectiveDisplayed(30)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_18
+Function Fragment_18()
+;BEGIN CODE
+SetObjectiveCompleted(50)
+SetObjectiveCompleted(60)
+Game.GetPlayer().AddItem(pReward)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -41,6 +52,25 @@ Function Fragment_17()
 ;BEGIN CODE
 setObjectiveCompleted(40)
 setObjectiveDisplayed(50)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_14
+Function Fragment_14()
+;BEGIN CODE
+Game.GetPlayer().AddItem(DDWDepthsOneKey, 1)
+SetObjectiveCompleted(10)
+SetObjectiveDisplayed(20)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_23
+Function Fragment_23()
+;BEGIN CODE
+alias_DDWDepthsOneNote.ForceRefTo(Game.GetPlayer().PlaceAtMe(DDWDepthsOneNote))
+(WICourier as WICourierScript).addAliasToContainer(alias_DDWDepthsOneNote)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -60,36 +90,6 @@ Function Fragment_16()
 ;BEGIN CODE
 setObjectiveCompleted(30)
 setObjectiveDisplayed(40)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_15
-Function Fragment_15()
-;BEGIN CODE
-Utility.Wait(1.0)
-SetObjectiveCompleted(20)
-SetObjectiveDisplayed(30)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_14
-Function Fragment_14()
-;BEGIN CODE
-Game.GetPlayer().AddItem(DDWDepthsOneKey, 1)
-SetObjectiveCompleted(10)
-SetObjectiveDisplayed(20)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_18
-Function Fragment_18()
-;BEGIN CODE
-SetObjectiveCompleted(50)
-SetObjectiveCompleted(60)
-Game.GetPlayer().AddItem(pReward)
 ;END CODE
 EndFunction
 ;END FRAGMENT
