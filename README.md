@@ -7,9 +7,9 @@ Two Dungeons Created So Far:
 - Dungeon #1: Ice Caves, retrieving ancient artifact to save Skyrim
 
 ### Video Walkthroughs
-[![Walkthrough Video of DDW Demo Dungeon](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWDemoVideoThumbnail.jpg?raw=true)](https://youtu.be/D-gVM9IxT5I)
+[![Walkthrough Video of DDW Demo Dungeon](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWDemoVideoThumbnail.jpg?raw=true)](https://youtu.be/i0f6_9EhuYU)
 
-[![Walkthrough Video of DDW Dungeon #1 - The Heart of Winter](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWVideo1Thumbnail.jpg?raw=true)](https://youtu.be/i0f6_9EhuYU)
+[![Walkthrough Video of DDW Dungeon #1 - The Heart of Winter](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWVideo1Thumbnail.jpg?raw=true)](https://youtu.be/CPXUett1wCo)
 #### Dungeon #1 Map (Created before building in creation kit):
 ![Dungeon #1 Map](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDW1DungeonMap.jpg?raw=true)
 
