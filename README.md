@@ -20,13 +20,18 @@ Two Dungeons Created So Far:
 [Creation Club Listing (PS)](https://creations.bethesda.net/en/skyrim/details/76237/Dungeon_Design_Weekly___Demo_PS)
 
 ### Concepts demonstrated:
-- [X] Level design using Nordic dungeon and green/ice cave kits
+- [X] Level design using Nordic dungeon, green/ice cave, High Hrothgar kits
 - [X] Enemies
+  - [X] Enemy patrols (ping-pong, loop)
   - [X] Enemy ambushes
   - [X] Lvl and Enc enemies
-  - [X] Custom scalable boss
+  - [X] Custom scalable bosses
+- [X] NPC dialogue extension/augmentation
 - [X] Traps
+- [X] Puzzles
 - [X] Clutter/loot
+- [X] Custom spell, shout, and magical effects
+- [X] Word wall setup and usage
 - [X] Activators (pull chain and secret passage door)
 - [X] Storytelling
   - [X] Quest tracking/journal entries
