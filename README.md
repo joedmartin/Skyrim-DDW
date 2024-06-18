@@ -27,6 +27,8 @@ Two Dungeons Created So Far:
   - [X] Lvl and Enc enemies
   - [X] Custom scalable bosses
 - [X] NPC dialogue extension/augmentation
+  - [X] Custom NPC with AI voice acting
+  - [X] Added Courier quests using existing dialogue
 - [X] Traps
 - [X] Puzzles
 - [X] Clutter/loot
