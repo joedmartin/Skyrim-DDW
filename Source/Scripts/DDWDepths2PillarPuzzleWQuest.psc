@@ -41,11 +41,6 @@ Int Property StageToSet  Auto
 
 Function doorOrDarts()
 	Debug.Notification("Door or darts reached")
-	;if the puzzle is solved, activate the refActonSuccess01
-	;else if the puzzle is not solved, activate the refActOnFailures (the dart traps
-	;in the case of BleakFallsBarrow01)
-	;wait(6)
-	Debug.Notification("pillars solved: " + numPillarsSolved + ". pillar count: " + PillarCount)
 	if (numPillarsSolved == PillarCount)
 		puzzleSolved = true
 		myQST.setStage(StageToSet)
@@ -71,7 +66,6 @@ Auto STATE pulledPosition
 	EVENT onActivate (objectReference triggerRef)
 		Actor actorRef = triggerRef as Actor
 		gotoState("busy")
-		;notification("just activated lever")
 		doorOrDarts()
 		playAnimationandWait("FullPush","FullPushedUp")
 		gotoState("pushedPosition")
@@ -83,7 +77,6 @@ endState
 STATE pushedPosition
 	EVENT onActivate (objectReference triggerRef)
 		gotoState ("busy")
-		;notification("just activated lever")
 		doorOrDarts()
 		playAnimationandWait("FullPull","FullPulledDown")
 		gotoState("pulledPosition")

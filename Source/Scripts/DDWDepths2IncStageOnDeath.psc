@@ -9,14 +9,18 @@ int property StageToSet auto hidden
 {Set this stage when the actor dies}
 int property CurrentStage auto hidden
 {Current stage to be incremented on}
+Int Property rangeUpper Auto  
+{Upper limit for incrementing to occur, inclusive}
 
 auto STATE waiting
 	EVENT onDeath(actor killer)
 		if preReqStage == -1 || myQST.getStageDone(preReqStage) == TRUE
 			CurrentStage = myQST.GetStage()
 			stageToSet = CurrentStage +1
-			myQST.setStage(stageToSet)
-			gotoState("inactive")
+			if stageToSet <= rangeUpper
+				myQST.setStage(stageToSet)
+				gotoState("inactive")
+			endif
 		elseif preReqStage != -1 && myQST.getStageDone(preReqStage) == FALSE
 ; 			debug.trace(self + " was killed before stage " + preReqStage + " of " + myQST + " was set")
 		else
@@ -27,3 +31,5 @@ endSTATE
 
 STATE inactive
 endSTATE
+
+
