@@ -40,7 +40,6 @@ Int Property StageToSet  Auto
 ;*****************************************
 
 Function doorOrDarts()
-	Debug.Notification("Door or darts reached")
 	if (numPillarsSolved == PillarCount)
 		puzzleSolved = true
 		myQST.setStage(StageToSet)
