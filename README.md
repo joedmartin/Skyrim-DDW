@@ -66,4 +66,3 @@ Two Dungeons Created So Far:
 
 ### Learning Resources Used:
 - [X] YouTube Tutorial Playlist: [Here](https://www.youtube.com/playlist?list=PLiZm4YAC3xr4Ov4xX3jU_BuBL95tX4wDI)
-- [X] Project cleanup (SSEdit)
