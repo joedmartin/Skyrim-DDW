@@ -32,7 +32,7 @@ Two Dungeons Created So Far:
   - [X] Lvl and Enc enemies
   - [X] Custom scalable bosses
 - [X] NPC dialogue extension/augmentation
-  - [X] Custom NPC with AI voice acting that builds on existing character voice
+  - [X] Custom NPC with AI voice acting (credit Christopher Plummer RIP)
   - [X] New Courier quests reusing existing dialogue
 - [X] Traps (physical, magic, rune)
 - [X] Puzzles (puzzle pillars)
@@ -61,4 +61,8 @@ Two Dungeons Created So Far:
 - [X] Sound effect triggers with custom sounds
 - [X] Metadata
   - [X] Custom Location and Encounter Zone
+- [X] Asset decompiling/unpacking
 - [X] Project cleanup (SSEdit)
+
+### Learning Resources Used:
+- [X] Curated YouTube Tutorial Playlist: [Here](https://www.youtube.com/playlist?list=PLiZm4YAC3xr4Ov4xX3jU_BuBL95tX4wDI)
