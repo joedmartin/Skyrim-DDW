@@ -2,9 +2,19 @@
 ;NEXT FRAGMENT INDEX 25
 Scriptname QF_DDWDepths1Quest_0103DA46 Extends Quest Hidden
 
+;BEGIN ALIAS PROPERTY DaedraBoss
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_DaedraBoss Auto
+;END ALIAS PROPERTY
+
 ;BEGIN ALIAS PROPERTY DDWDepths1Door
 ;ALIAS PROPERTY TYPE ReferenceAlias
 ReferenceAlias Property Alias_DDWDepths1Door Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY DDWDepths1Journal
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_DDWDepths1Journal Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY DDWDepthsOneNote
@@ -17,15 +27,38 @@ ReferenceAlias Property Alias_DDWDepthsOneNote Auto
 ReferenceAlias Property Alias_HeartOfWinter Auto
 ;END ALIAS PROPERTY
 
-;BEGIN ALIAS PROPERTY DaedraBoss
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_DaedraBoss Auto
-;END ALIAS PROPERTY
-
 ;BEGIN ALIAS PROPERTY DDWDepthsOneDestChest
 ;ALIAS PROPERTY TYPE ReferenceAlias
 ReferenceAlias Property Alias_DDWDepthsOneDestChest Auto
 ;END ALIAS PROPERTY
+
+;BEGIN FRAGMENT Fragment_14
+Function Fragment_14()
+;BEGIN CODE
+Game.GetPlayer().AddItem(DDWDepthsOneKey, 1)
+SetObjectiveCompleted(10)
+SetObjectiveDisplayed(20)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_16
+Function Fragment_16()
+;BEGIN CODE
+setObjectiveCompleted(30)
+setObjectiveDisplayed(40)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_23
+Function Fragment_23()
+;BEGIN CODE
+alias_DDWDepthsOneNote.ForceRefTo(Game.GetPlayer().PlaceAtMe(DDWDepthsOneNote))
+(WICourier as WICourierScript).addAliasToContainer(alias_DDWDepthsOneNote)
+;END CODE
+EndFunction
+;END FRAGMENT
 
 ;BEGIN FRAGMENT Fragment_15
 Function Fragment_15()
@@ -47,34 +80,6 @@ Game.GetPlayer().AddItem(pReward)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_17
-Function Fragment_17()
-;BEGIN CODE
-setObjectiveCompleted(40)
-setObjectiveDisplayed(50)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_14
-Function Fragment_14()
-;BEGIN CODE
-Game.GetPlayer().AddItem(DDWDepthsOneKey, 1)
-SetObjectiveCompleted(10)
-SetObjectiveDisplayed(20)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_23
-Function Fragment_23()
-;BEGIN CODE
-alias_DDWDepthsOneNote.ForceRefTo(Game.GetPlayer().PlaceAtMe(DDWDepthsOneNote))
-(WICourier as WICourierScript).addAliasToContainer(alias_DDWDepthsOneNote)
-;END CODE
-EndFunction
-;END FRAGMENT
-
 ;BEGIN FRAGMENT Fragment_13
 Function Fragment_13()
 ;BEGIN CODE
@@ -85,11 +90,11 @@ SetObjectiveDisplayed(10)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_16
-Function Fragment_16()
+;BEGIN FRAGMENT Fragment_17
+Function Fragment_17()
 ;BEGIN CODE
-setObjectiveCompleted(30)
-setObjectiveDisplayed(40)
+setObjectiveCompleted(40)
+setObjectiveDisplayed(50)
 ;END CODE
 EndFunction
 ;END FRAGMENT

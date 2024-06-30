@@ -2,9 +2,9 @@
 ;NEXT FRAGMENT INDEX 21
 Scriptname QF_DDWDepths2Quest_02029CD7 Extends Quest Hidden
 
-;BEGIN ALIAS PROPERTY Miniboss1
+;BEGIN ALIAS PROPERTY DDWDepths2Door
 ;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Miniboss1 Auto
+ReferenceAlias Property Alias_DDWDepths2Door Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Finalboss
@@ -12,19 +12,9 @@ ReferenceAlias Property Alias_Miniboss1 Auto
 ReferenceAlias Property Alias_Finalboss Auto
 ;END ALIAS PROPERTY
 
-;BEGIN ALIAS PROPERTY Miniboss2
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Miniboss2 Auto
-;END ALIAS PROPERTY
-
 ;BEGIN ALIAS PROPERTY QuestGiver
 ;ALIAS PROPERTY TYPE ReferenceAlias
 ReferenceAlias Property Alias_QuestGiver Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY Miniboss3
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Miniboss3 Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY PuzzleLever
@@ -32,17 +22,59 @@ ReferenceAlias Property Alias_Miniboss3 Auto
 ReferenceAlias Property Alias_PuzzleLever Auto
 ;END ALIAS PROPERTY
 
-;BEGIN ALIAS PROPERTY DDWDepths2Door
+;BEGIN ALIAS PROPERTY Miniboss1
 ;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_DDWDepths2Door Auto
+ReferenceAlias Property Alias_Miniboss1 Auto
 ;END ALIAS PROPERTY
 
-;BEGIN FRAGMENT Fragment_20
-Function Fragment_20()
+;BEGIN ALIAS PROPERTY Miniboss3
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Miniboss3 Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY DDWDepths2Journal
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_DDWDepths2Journal Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Miniboss2
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Miniboss2 Auto
+;END ALIAS PROPERTY
+
+;BEGIN FRAGMENT Fragment_10
+Function Fragment_10()
 ;BEGIN CODE
 Utility.Wait(1.0)
-SetObjectiveCompleted(40)
-SetObjectiveDisplayed(50)
+SetObjectiveCompleted(20)
+SetObjectiveDisplayed(21)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_14
+Function Fragment_14()
+;BEGIN CODE
+setObjectiveCompleted(30)
+setObjectiveDisplayed(40)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_8
+Function Fragment_8()
+;BEGIN CODE
+SetObjectiveCompleted(50)
+Game.GetPlayer().AddItem(pReward)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_5
+Function Fragment_5()
+;BEGIN CODE
+SetObjectiveCompleted(23)
+SetObjectiveDisplayed(30)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -57,12 +89,22 @@ SetObjectiveDisplayed(20)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_10
-Function Fragment_10()
+;BEGIN FRAGMENT Fragment_2
+Function Fragment_2()
+;BEGIN CODE
+SetObjectiveCompleted(5)
+SetObjectiveDisplayed(10)
+Game.GetPlayer().AddItem(DDWDepthsKey)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_20
+Function Fragment_20()
 ;BEGIN CODE
 Utility.Wait(1.0)
-SetObjectiveCompleted(20)
-SetObjectiveDisplayed(21)
+SetObjectiveCompleted(40)
+SetObjectiveDisplayed(50)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -77,15 +119,6 @@ SetObjectiveDisplayed(22)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_14
-Function Fragment_14()
-;BEGIN CODE
-setObjectiveCompleted(30)
-setObjectiveDisplayed(40)
-;END CODE
-EndFunction
-;END FRAGMENT
-
 ;BEGIN FRAGMENT Fragment_12
 Function Fragment_12()
 ;BEGIN CODE
@@ -94,34 +127,6 @@ SetObjectiveCompleted(22)
 SetObjectiveDisplayed(23)
 Utility.Wait(3.0)
 SetStage(30)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_5
-Function Fragment_5()
-;BEGIN CODE
-SetObjectiveCompleted(23)
-SetObjectiveDisplayed(30)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_8
-Function Fragment_8()
-;BEGIN CODE
-SetObjectiveCompleted(50)
-Game.GetPlayer().AddItem(pReward)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_2
-Function Fragment_2()
-;BEGIN CODE
-SetObjectiveCompleted(5)
-SetObjectiveDisplayed(10)
-Game.GetPlayer().AddItem(DDWDepthsKey)
 ;END CODE
 EndFunction
 ;END FRAGMENT
