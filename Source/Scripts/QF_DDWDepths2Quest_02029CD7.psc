@@ -151,5 +151,4 @@ EndFunction
 
 ;END FRAGMENT CODE - Do not edit anything between this and the begin comment
 LeveledItem Property pReward  Auto  
-
 Scene Property DDWDepths2QuestScene  Auto  
