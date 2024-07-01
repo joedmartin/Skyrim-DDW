@@ -2,7 +2,7 @@
 
 Creating a new dungeon/cave in Skyrim SE every week using the Skyrim Creation Kit!
 
-Two Dungeons Created So Far:
+Three Dungeons Created So Far:
 - Demo Dungeon: Short spider infested nordic crypt
 - Dungeon #1: Ice Caves, retrieving ancient artifact to save Skyrim
 - Dungeon #2: Corrupted Greybeards, purging necromancer infested resting grounds
