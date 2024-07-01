@@ -26,6 +26,10 @@ Three Dungeons Created So Far:
 
 ### Concepts demonstrated:
 - [X] Level design using Nordic dungeon, green/ice cave, High Hrothgar kits
+- [X] Interior cells, small worldspaces
+  - [X] Landmeshing
+  - [X] Height map editing
+  - [X] Interiod/exterior navmeshing
 - [X] Enemies
   - [X] Enemy patrols (ping-pong, loop)
   - [X] Enemy ambushes
