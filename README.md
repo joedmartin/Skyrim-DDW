@@ -2,6 +2,8 @@
 
 Creating a new dungeon/cave in Skyrim SE every week using the Skyrim Creation Kit!
 
+Now with a new underground dungeon/trader hub area!
+
 Three Dungeons Created So Far:
 - Demo Dungeon: Short spider infested nordic crypt
 - Dungeon #1: Ice Caves, retrieving ancient artifact to save Skyrim
@@ -38,6 +40,7 @@ Three Dungeons Created So Far:
 - [X] NPC dialogue extension/augmentation
   - [X] Custom NPC with AI voice acting (credit Christopher Plummer RIP)
   - [X] New Courier quests reusing existing dialogue
+- [X] Custom NPC scene interactions
 - [X] Traps (physical, magic, rune)
 - [X] Puzzles (puzzle pillars)
 - [X] Clutter/loot
