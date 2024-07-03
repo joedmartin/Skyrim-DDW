@@ -2,14 +2,15 @@
 
 Creating a new dungeon/cave in Skyrim SE every week using the Skyrim Creation Kit!
 
-Now with a new underground dungeon/trader hub area!
-
-Three Dungeons Created So Far:
+Completed:
+- Underground dungeon/merchant hub
 - Demo Dungeon: Short spider infested nordic crypt
 - Dungeon #1: Ice Caves, retrieving ancient artifact to save Skyrim
 - Dungeon #2: Corrupted Greybeards, purging necromancer infested resting grounds
 
 ### Video Walkthroughs
+[![Walkthrough Video of DDW Depths Hub](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWHubThumbnail.jpg?raw=true)](https://youtu.be/4PNtYWhuchI)
+
 [![Walkthrough Video of DDW Demo Dungeon](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWDemoVideoThumbnail.jpg?raw=true)](https://youtu.be/bBdiydAnLKk)
 
 [![Walkthrough Video of DDW Dungeon #1 - The Heart of Winter](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWVideo1Thumbnail.jpg?raw=true)](https://youtu.be/kbIQLX7_R4k)
