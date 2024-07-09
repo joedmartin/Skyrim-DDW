@@ -27,27 +27,17 @@ Completed:
 
 [Creation Club Listing (PS)](https://creations.bethesda.net/en/skyrim/details/76237/Dungeon_Design_Weekly___Demo_PS)
 
-### Concepts demonstrated:
-- [X] Level design using Nordic dungeon, green/ice cave, High Hrothgar kits
-- [X] Interior cells, small worldspaces
+### Concepts Demonstrated:
+#### Level Design
+- [X] Interior cells
+  - [X] Nordic catacomb/room/hall, green/ice cave, and High Hrothgar tileset kits
+- [X] Small worldspaces/exteriors
   - [X] Landmeshing
   - [X] Height map editing
-  - [X] Interiod/exterior navmeshing
-- [X] Enemies
-  - [X] Enemy patrols (ping-pong, loop)
-  - [X] Enemy ambushes
-  - [X] Lvl and Enc enemies
-  - [X] Custom scalable bosses
-- [X] NPC dialogue extension/augmentation
-  - [X] Custom NPC with AI voice acting (credit Christopher Plummer RIP)
-  - [X] New Courier quests reusing existing dialogue
-- [X] Custom NPC scene interactions
-- [X] Traps (physical, magic, rune)
-- [X] Puzzles (puzzle pillars)
 - [X] Clutter/loot
-- [X] Custom spell, shout, and magical effects
-- [X] Word wall setup and usage
-- [X] Activators (pull chain and secret passage door)
+- [X] Metadata
+  - [X] Custom Location and Encounter Zone
+#### Quests
 - [X] Custom quests
   - [X] Quest design
 - [X] Storytelling
@@ -57,18 +47,37 @@ Completed:
   - [X] Environmental storytelling
     - [X] Example: Within Dungeon #1 the player initially encouters ice wolves. As they move deeper in they begin to see dead ice wolves, leading them to wonder what could have possibly killed them. Eventually the player may hear an ice bear in the distance before coming face to face with it as it chargers towards them out of its den.
   - [X] Dialogue/script writing
-- [X] Special Effects
-  - [X] Cell ambience/music
-  - [X] Lighting
-    - [X] Custom cell lighting profile
-    - [X] Use and balance of shadow and non-shadow casting light sources
-  - [X] Fog, mist, and snow
-- [X] Navmesh creation and validation
-- [X] Optimization (per room/area render chunking)
+#### NPCs
+- [X] Enemies
+  - [X] Enemy patrols (ping-pong, loop)
+  - [X] Enemy ambushes
+  - [X] Lvl and Enc enemies
+  - [X] Custom scalable bosses
+- [X] NPC dialogue extension/augmentation
+  - [X] Custom NPC with AI voice acting (credit Christopher Plummer RIP)
+  - [X] New Courier quests reusing existing dialogue
+  - [X] Custom NPC scene interactions
+- [X] Custom NPC Merchant/Fence
 - [X] Companion commentary triggers
+#### Interactables
+- [X] Traps
+- [X] Puzzles
+- [X] Activators
+#### Magic
+- [X] Custom spell, shout, and magical effects
+- [X] Word wall setup and usage
+#### Special Effects
+- [X] Cell ambience/music
+- [X] Lighting
+  - [X] Custom cell lighting profile
+  - [X] Use and balance of shadow and non-shadow casting light sources
+- [X] Fog, mist, and snow
+- [X] Texture swaps using in-game resources
 - [X] Sound effect triggers with custom sounds
-- [X] Metadata
-  - [X] Custom Location and Encounter Zone
+#### Technical Skills
+- [X] Navigation mesh creation/optimization
+- [X] Playtesting
+- [X] Optimization (per room/area render chunking)
 - [X] Asset decompiling/unpacking
 - [X] Project cleanup (SSEdit)
 
