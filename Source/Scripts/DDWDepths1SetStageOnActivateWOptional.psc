@@ -1,4 +1,4 @@
-Scriptname setStageOnActivateWOptional extends RPDefault_OnActivate
+Scriptname DDWDepths1SetStageOnActivateWOptional extends rpdefault_onactivate  
 
 Quest Property TargetQuest auto
 { Quest to set the stage on }

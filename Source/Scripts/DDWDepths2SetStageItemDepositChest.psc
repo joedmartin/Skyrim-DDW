@@ -1,4 +1,4 @@
-Scriptname SetStageOnItemDepositInChest extends ReferenceAlias  
+Scriptname DDWDepths2SetStageItemDepositChest extends ReferenceAlias  
 
 Quest Property myQST auto
 int Property preReqStage = -1 auto

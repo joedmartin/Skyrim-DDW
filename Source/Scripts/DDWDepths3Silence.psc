@@ -1,4 +1,4 @@
-Scriptname Silence extends activemagiceffect  
+Scriptname DDWDepths3Silence extends activemagiceffect  
 
 Float property UpdateRate auto
 
