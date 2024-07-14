@@ -1,6 +1,6 @@
-# Skyrim Creation Kit - Dungeon Design Weekly
+# Skyrim Creation Kit - Dungeon Design Workshop
 
-Creating a new dungeon/cave in Skyrim SE every week using the Skyrim Creation Kit!
+Creating new dungeons/caves in Skyrim as pracrice for Level Design. (using the Skyrim Creation Kit)
 
 Completed:
 - Underground dungeon and merchant/fence hub
