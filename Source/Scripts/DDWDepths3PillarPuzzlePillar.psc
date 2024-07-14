@@ -1,5 +1,4 @@
-Scriptname DDWDepths2PillarPuzzlePillar extends ObjectReference  
-
+Scriptname DDWDepths3PillarPuzzlePillar extends ObjectReference  
 {
 - User can use properties to set the pillar's initial state and solve state
 - The script first checks to see if the initial state is the same as the solve state

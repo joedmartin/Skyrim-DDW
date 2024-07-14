@@ -1,5 +1,4 @@
-Scriptname DDWDepths2PillarPuzzleWQuest extends ObjectReference  
-
+Scriptname DDWDepths3PillarPuzzleWQuest extends ObjectReference  
 {
 - This script lives on the lever that controls each of the pillars
 - Each pillar should have its linkedRef point to the lever that this script is on

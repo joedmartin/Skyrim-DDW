@@ -1,4 +1,4 @@
-Scriptname DDWDepths2PlaySoundTrigOnLeave extends ObjectReference  
+Scriptname DDWDepths3PlaySoundTrigOnLeave extends ObjectReference  
 
 import game
 import debug
@@ -24,3 +24,4 @@ endSTATE
 STATE hasBeenTriggered
 	; this is an empty state.
 endSTATE
+

@@ -1,4 +1,4 @@
-Scriptname AbsorbSoulOnDeath extends ObjectReference  
+Scriptname DDWDepths3AbsorbSoulOnDeath extends ObjectReference  
 
 Spell property gainDragonSoulSpell auto
 

@@ -1,20 +1,45 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
 ;NEXT FRAGMENT INDEX 21
-Scriptname QF_DDWDepths2Quest_02029CD7 Extends Quest Hidden
-
-;BEGIN ALIAS PROPERTY Finalboss
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Finalboss Auto
-;END ALIAS PROPERTY
+Scriptname DDWDepths3QuestScript Extends Quest Hidden
 
 ;BEGIN ALIAS PROPERTY PuzzleLever
 ;ALIAS PROPERTY TYPE ReferenceAlias
 ReferenceAlias Property Alias_PuzzleLever Auto
 ;END ALIAS PROPERTY
 
-;BEGIN ALIAS PROPERTY DDWDepths2Door
+;BEGIN ALIAS PROPERTY DDWDepths3DoorLever
 ;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_DDWDepths2Door Auto
+ReferenceAlias Property Alias_DDWDepths3DoorLever Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY DDWDepths3Journal
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_DDWDepths3Journal Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Miniboss2
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Miniboss2 Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY DDWDepths3Door
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_DDWDepths3Door Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Miniboss1
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Miniboss1 Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY DDWDepths3QuestGiverIdle
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_DDWDepths3QuestGiverIdle Auto
+;END ALIAS PROPERTY
+
+;BEGIN ALIAS PROPERTY Finalboss
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Finalboss Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN ALIAS PROPERTY Miniboss3
@@ -25,31 +50,6 @@ ReferenceAlias Property Alias_Miniboss3 Auto
 ;BEGIN ALIAS PROPERTY QuestGiver
 ;ALIAS PROPERTY TYPE ReferenceAlias
 ReferenceAlias Property Alias_QuestGiver Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY DDWDepths2DoorLever
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_DDWDepths2DoorLever Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY DDWDepths2Journal
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_DDWDepths2Journal Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY Miniboss2
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Miniboss2 Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY Miniboss1
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_Miniboss1 Auto
-;END ALIAS PROPERTY
-
-;BEGIN ALIAS PROPERTY DDWDepths2QuestGiverIdle
-;ALIAS PROPERTY TYPE ReferenceAlias
-ReferenceAlias Property Alias_DDWDepths2QuestGiverIdle Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN FRAGMENT Fragment_20
@@ -83,14 +83,6 @@ SetObjectiveDisplayed(30)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_19
-Function Fragment_19()
-;BEGIN CODE
-SetObjectiveDisplayed(5)
-;END CODE
-EndFunction
-;END FRAGMENT
-
 ;BEGIN FRAGMENT Fragment_10
 Function Fragment_10()
 ;BEGIN CODE
@@ -101,12 +93,19 @@ SetObjectiveDisplayed(21)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_2
-Function Fragment_2()
+;BEGIN FRAGMENT Fragment_8
+Function Fragment_8()
 ;BEGIN CODE
-DDWDepths2QuestScene.Start()
-SetObjectiveCompleted(5)
-SetObjectiveDisplayed(10)
+SetObjectiveCompleted(50)
+Game.GetPlayer().AddItem(pReward)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_19
+Function Fragment_19()
+;BEGIN CODE
+SetObjectiveDisplayed(5)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -121,6 +120,15 @@ SetObjectiveDisplayed(20)
 EndFunction
 ;END FRAGMENT
 
+;BEGIN FRAGMENT Fragment_14
+Function Fragment_14()
+;BEGIN CODE
+setObjectiveCompleted(30)
+setObjectiveDisplayed(40)
+;END CODE
+EndFunction
+;END FRAGMENT
+
 ;BEGIN FRAGMENT Fragment_11
 Function Fragment_11()
 ;BEGIN CODE
@@ -131,20 +139,12 @@ SetObjectiveDisplayed(22)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_14
-Function Fragment_14()
+;BEGIN FRAGMENT Fragment_2
+Function Fragment_2()
 ;BEGIN CODE
-setObjectiveCompleted(30)
-setObjectiveDisplayed(40)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_8
-Function Fragment_8()
-;BEGIN CODE
-SetObjectiveCompleted(50)
-Game.GetPlayer().AddItem(pReward)
+DDWDepths2QuestScene.Start()
+SetObjectiveCompleted(5)
+SetObjectiveDisplayed(10)
 ;END CODE
 EndFunction
 ;END FRAGMENT

@@ -1,4 +1,4 @@
-scriptName DDWDepths2IncStageOnDeath extends actor
+Scriptname DDWDepths3IncStageOnDeath extends Actor  
 {Set stage on specificed quest when this actor dies.  Pre-Requistite stage optional}
 
 quest property myQST auto
@@ -31,5 +31,6 @@ endSTATE
 
 STATE inactive
 endSTATE
+
 
 

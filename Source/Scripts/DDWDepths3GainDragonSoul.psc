@@ -1,4 +1,4 @@
-Scriptname GainDragonSoul extends activemagiceffect  
+Scriptname DDWDepths3GainDragonSoul extends activemagiceffect  
 
 VisualEffect Property DragonAbsorbEffect Auto
 VisualEffect Property DragonAbsorbManEffect Auto
