@@ -1,25 +1,25 @@
 # Skyrim Creation Kit - Dungeon Design Workshop
 
-Creating new dungeons/caves in Skyrim as pracrice for Level Design. (using the Skyrim Creation Kit)
+Creating new dungeons/caves in Skyrim as pracrice for Level Design! (using the Skyrim Creation Kit)
 
 Completed:
 - Underground dungeon and merchant/fence hub
-- Demo Dungeon: Short spider infested nordic crypt
-- Dungeon #1: Ice Caves, retrieving ancient artifact to save Skyrim
-- Dungeon #2: Corrupted Greybeards, purging necromancer infested resting grounds
+- Dungeon #1: Short spider infested nordic crypt (demo)
+- Dungeon #2: Ice Caves, retrieving ancient artifact to save Skyrim
+- Dungeon #3: Corrupted Greybeards, purging necromancer infested resting grounds
 
 ### Video Walkthroughs
-[![Walkthrough Video of DDW Depths Hub](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWHubThumbnail.jpg?raw=true)](https://youtu.be/4PNtYWhuchI)
+[![Walkthrough Video of DDW Depths Hub](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWHubVideoThumbnail.jpg?raw=true)](https://youtu.be/4PNtYWhuchI)
 
-[![Walkthrough Video of DDW Demo Dungeon](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWDemoVideoThumbnail.jpg?raw=true)](https://youtu.be/bBdiydAnLKk)
+[![Walkthrough Video of DDW Dungeon #1 - Demo](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDW1VideoThumbnail.jpg?raw=true)](https://youtu.be/bBdiydAnLKk)
 
-[![Walkthrough Video of DDW Dungeon #1 - The Heart of Winter](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWVideo1Thumbnail.jpg?raw=true)](https://youtu.be/kbIQLX7_R4k)
+[![Walkthrough Video of DDW Dungeon #2 - The Heart of Winter](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDW2VideoThumbnail.jpg?raw=true)](https://youtu.be/kbIQLX7_R4k)
 
-[![Walkthrough Video of DDW Dungeon #2 - The Corrupted Greybeards](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWVideo2Thumbnail.jpg?raw=true)](https://youtu.be/x20DZp4JM_k)
-#### Dungeon #1 Layout Planning Map
-![Dungeon #1 Map](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDW1DungeonMap.jpg?raw=true)
+[![Walkthrough Video of DDW Dungeon #3 - The Corrupted Greybeards](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDW3VideoThumbnail.jpg?raw=true)](https://youtu.be/x20DZp4JM_k)
 #### Dungeon #2 Layout Planning Map
-![Dungeon #2 Map](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDW2DungeonMap.jpg?raw=true)
+![Dungeon #2 Map](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDW2DungeonMap-v2.jpg?raw=true)
+#### Dungeon #3 Layout Planning Map
+![Dungeon #3 Map](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDW3DungeonMap.jpg?raw=true)
 
 [Nexus Page](https://www.nexusmods.com/skyrimspecialedition/mods/119713/)
 
