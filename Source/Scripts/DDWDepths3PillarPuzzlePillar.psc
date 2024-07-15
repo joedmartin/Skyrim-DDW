@@ -14,7 +14,7 @@ import utility
 bool pillarSolved
 bool doOnce
 
-DDWDepths2PillarPuzzleWQuest myLinkedRef
+DDWDepths3PillarPuzzleWQuest myLinkedRef
 
 int property initialState auto
 {
@@ -35,7 +35,7 @@ Position 1,2,3 refer to the havok animations
 }
 
 Event OnCellLoad()
-	myLinkedRef = GetLinkedRef() as DDWDepths2PillarPuzzleWQuest
+	myLinkedRef = GetLinkedRef() as DDWDepths3PillarPuzzleWQuest
 	
 	;account for case where initialState and solveState are equal in the beginning
 	if(!doOnce)
