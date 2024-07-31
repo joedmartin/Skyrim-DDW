@@ -54,7 +54,9 @@ Completed:
   - [X] Lvl and Enc enemies
   - [X] Custom scalable bosses
 - [X] NPC dialogue extension/augmentation
-  - [X] Custom NPC with AI voice acting (credit Christopher Plummer RIP)
+  - [X] Custom NPC with AI voice acting 
+    - [X] Christopher Plummer (MaleUniqueArngeir, Old Monk in DDW#3)
+    - [X] Michael Gough (MaleNord, Mage in DDW#2)
   - [X] New Courier quests reusing existing dialogue
   - [X] Custom NPC scene interactions
 - [X] Custom NPC Merchant/Fence
@@ -67,7 +69,11 @@ Completed:
 - [X] Custom spell, shout, and magical effects
 - [X] Word wall setup and usage
 #### Special Effects
-- [X] Cell ambience/music
+- [X] Sound
+  - [X] Cell ambience/music
+  - [X] Sound markers
+  - [X] Sound effect triggers with custom sounds
+  - [ ] Custom dialogue
 - [X] Lighting
   - [X] Custom cell lighting profile
   - [X] Use and balance of shadow and non-shadow casting light sources
@@ -76,7 +82,7 @@ Completed:
   - [X] Internal/External Emittance
 - [X] Fog, mist, and snow
 - [X] Texture swaps using in-game resources
-- [X] Sound effect triggers with custom sounds
+
 #### Markers
 - [X] NPC idle markers
 - [X] Map markers
