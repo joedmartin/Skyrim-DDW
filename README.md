@@ -82,9 +82,8 @@ Completed:
   - [X] Internal/External Emittance
 - [X] Fog, mist, and snow
 - [X] Texture swaps using in-game resources
-
 #### Markers
-- [X] NPC idle markers
+- [X] NPC idle/patrol/furniture markers
 - [X] Map markers
 - [X] North facing markers
 #### Technical Skills
