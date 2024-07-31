@@ -71,9 +71,16 @@ Completed:
 - [X] Lighting
   - [X] Custom cell lighting profile
   - [X] Use and balance of shadow and non-shadow casting light sources
+  - [X] Light/dust beams
+  - [X] Windows
+  - [X] Internal/External Emittance
 - [X] Fog, mist, and snow
 - [X] Texture swaps using in-game resources
 - [X] Sound effect triggers with custom sounds
+#### Markers
+- [X] NPC idle markers
+- [X] Map markers
+- [X] North facing markers
 #### Technical Skills
 - [X] Navigation mesh creation/optimization
 - [X] Playtesting
@@ -82,4 +89,4 @@ Completed:
 - [X] Project cleanup (SSEdit)
 
 ### Learning Resources Used:
-- [X] Curated YouTube Tutorial Playlist: [Here](https://www.youtube.com/playlist?list=PLiZm4YAC3xr4Ov4xX3jU_BuBL95tX4wDI)
+- Curated YouTube Tutorial Playlist: [Here](https://www.youtube.com/playlist?list=PLiZm4YAC3xr4Ov4xX3jU_BuBL95tX4wDI)
