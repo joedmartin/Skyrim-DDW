@@ -73,7 +73,7 @@ Completed:
   - [X] Cell ambience/music
   - [X] Sound markers
   - [X] Sound effect triggers with custom sounds
-  - [ ] Custom dialogue
+  - [X] Custom NPC dialogue using AI voice acting
 - [X] Lighting
   - [X] Custom cell lighting profile
   - [X] Use and balance of shadow and non-shadow casting light sources
