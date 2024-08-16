@@ -8,6 +8,9 @@ Completed:
 - Dungeon #2: Ice Caves, retrieving ancient artifact to save Skyrim
 - Dungeon #3: Corrupted Greybeards, purging necromancer infested resting grounds
 
+In-Progress:
+- Dungeon #4: Dwemer ruin thieves guild heist
+
 ### Video Walkthroughs
 [![Walkthrough Video of DDW Depths Hub](https://github.com/joedmartin/Skyrim-DDW/blob/master/Screenshots/DDWHubVideoThumbnail.jpg?raw=true)](https://youtu.be/4PNtYWhuchI)
 
