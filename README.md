@@ -61,6 +61,7 @@ Completed:
   - [X] Custom NPC scene interactions
 - [X] Custom NPC Merchant/Fence
 - [X] Companion commentary triggers
+#### Papyrus Scripting
 #### Interactables
 - [X] Traps
 - [X] Puzzles
