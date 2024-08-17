@@ -43,12 +43,13 @@ In-Progress:
 #### Quests
 - [X] Custom quests
   - [X] Quest design
+  - [X] Quest scripting
 - [X] Storytelling
   - [X] Story writing
   - [X] Quest tracking/journal entries
     - [X] Examples: Track recieving and reading a note, visiting a location, activating an object, killing enemies, finding a secret exit and treasure, returning item to chest (with descriptive quest journal entries for each step)
   - [X] Environmental storytelling
-    - [X] Example: Within Dungeon #1 the player initially encouters ice wolves. As they move deeper in they begin to see dead ice wolves, leading them to wonder what could have possibly killed them. Eventually the player may hear an ice bear in the distance before coming face to face with it as it chargers towards them out of its den.
+    - [X] Example: Within Dungeon #2 the player initially encouters ice wolves. As they move deeper in they begin to see dead ice wolves, leading them to wonder what could have possibly killed them. Eventually the player may hear an ice bear in the distance before coming face to face with it as it chargers towards them out of its den.
   - [X] Dialogue/script writing
 #### NPCs
 - [X] Enemies
