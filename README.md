@@ -1,6 +1,6 @@
 # Skyrim Creation Kit - Dungeon Design Workshop
 
-Creating new dungeons/caves in Skyrim as pracrice for Level Design! (using the Skyrim Creation Kit)
+Started as creating 1 new dungeon/cave with the Skyrim Creation Kit a week as pracrice for Level Design, now applying what I learned to a long term dungeon project.
 
 Completed:
 - Underground dungeon and merchant/fence hub
